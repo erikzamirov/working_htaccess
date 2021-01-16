@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+
+RedirectMatch "\/.[^\d]+(\d+)\.php$" "/$1.php"
